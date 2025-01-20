@@ -1,0 +1,27 @@
+
+.pointer {
+    cursor: pointer;
+}
+
+.filter-scroll {
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+
+/* hide scrollbar in filters */
+.filter-scroll::-webkit-scrollbar {
+    width: 8px;
+}
+
+.filter-scroll::-webkit-scrollbar-thumb {
+    background-color: #f2f2f2;
+    border-radius: 4px;
+}
+
+/* hide input number arrow */
+.no-spin-arrows::-webkit-inner-spin-button,
+.no-spin-arrows::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
